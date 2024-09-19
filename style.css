@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* effects my name on the page */
+h1 {
+    font-family: "Dancing Script",  cursive;
+    font-size: 5vw;
+    color: rgb(10, 8, 8);
+    text-align: center;
+    margin-top: 0em;
+    background-color:  rgb(183, 20, 134);
+
+}
+
+/* effects the navigation bar at top */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: rgb(159, 4, 113);
+    color: white;
+}
+
+li{
+    display: inline;
+}
+    
+li a {
+    margin-left: 1em;
+    margin-right: 1em;   
+    color: white;
+}
+
+image {
+    margin-top: 5em;
+}
+
+ /* when class put a dot, when id but # */ 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
